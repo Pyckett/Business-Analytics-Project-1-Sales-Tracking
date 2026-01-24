@@ -1,0 +1,26 @@
+name: sales-tracking-project
+
+channels:
+  - conda-forge
+
+dependencies:
+
+  - python=3.10
+
+  - pandas
+
+  - flake8
+
+  - jupyter
+
+  - jupyterlab
+
+  - ipython
+
+  - pip
+
+  - pip:
+
+    - black
+
+    - nbqa
