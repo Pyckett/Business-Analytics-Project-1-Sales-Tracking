@@ -19,11 +19,10 @@ This repository includes the following:
   - 'requirements.yml' - YAML file that defines the configurations for the project.
 
 ## How to Use This Repository 
-  1.
-  2. 
-  3.
-  4.
-  5. 
+  1. Review the "Timeless_Transport_Models.pdf" for contextual information as well as the data dictionary.
+  2. Open the "Sales-Story.twb" workbook to see the Tableau project for your view.
+  3. Review the dashboards and story to see the analysis.
+  4. Enjoy the project by "Team Silver"!
 
 Tools used:
 - Python (for data cleaning)
