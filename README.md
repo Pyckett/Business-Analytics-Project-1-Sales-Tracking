@@ -17,12 +17,14 @@ This repository includes the following:
   - 'sales_data_sample.csv' - Original dataset used for this project, but requires data cleaning before use.
   - 'cleaned_sales_data.csv' - Current dataset in use for this project after the insertion of the file into the python script for data cleaning purposes.
   - 'requirements.yml' - YAML file that defines the configurations for the project.
+  - 'Timeless_Transport_Models.pdf' A design framework for our sales dashboard.
+  - 'Sales_Story.twbx' The Tableau workbook containing our data visualizations.
 
 ## How to Use This Repository 
-  1. Review the "Timeless_Transport_Models.pdf" for contextual information as well as the data dictionary.
-  2. Open the "Sales-Story.twb" workbook to see the Tableau project for your view.
-  3. Review the dashboards and story to see the analysis.
-  4. Enjoy the project delivered by "Team Silver"!
+  1. Clone the repository or download the zip file
+  2. Install the requirements.yml using a virtual environment with the command: conda env create -f environment.yml (if using conda)
+  3. Cleaned sales data is already included, but if you are missing it, you can run 'clean.py' on the sales_data_sample to regenerate it
+  4. Open the 'Sales_Story.twbx' to view the data visualization (source data is 'cleaned_sales_data.csv')
 
 Tools used:
 - Python (for data cleaning)
