@@ -15,15 +15,16 @@ This repository includes the following:
   - 'Sales Tracking Dashboard.twb' - Packaged Tableau workbook containing dashboards and story
   - 'clean.py' - A python script created to clean out the dataset 'sales_data_sample.csv' as needed.
   - 'sales_data_sample.csv' - Original dataset used for this project, but requires data cleaning before use.
-  - 'cleaned_sales_data.csv' - Current dataset in use for this project after the insertion of the file into the python script        for data cleaning purposes.
+  - 'cleaned_sales_data.csv' - Current dataset in use for this project after the insertion of the file into the python script for data cleaning purposes.
   - 'requirements.yml' - YAML file that defines the configurations for the project.
+  - 'Timeless_Transport_Models.pdf' A design framework for our sales dashboard.
+  - 'Sales_Story.twbx' The Tableau workbook containing our data visualizations.
 
 ## How to Use This Repository 
-  1.
-  2. 
-  3.
-  4.
-  5. 
+  1. Clone the repository or download the zip file
+  2. Install the requirements.yml using a virtual environment with the command: conda env create -f environment.yml (if using conda)
+  3. Cleaned sales data is already included, but if you are missing it, you can run 'clean.py' on the sales_data_sample to regenerate it
+  4. Open the 'Sales_Story.twbx' to view the data visualization (source data is 'cleaned_sales_data.csv')
 
 Tools used:
 - Python (for data cleaning)
