@@ -11,8 +11,8 @@ The dataset used represents sales data from "Timeless Transport Models", which i
 This repository includes the following:
   - 'README.md' - Overview of the project and the repository as a whole.
   - 'CONTRIBUING.md' - Description of team member roles and contributions
-  - 'AI.md' - Explaination of how AI tools were used in this project in alignment with course guidelines on AI usage
-  - 'Sales Tracking Dashboard.twb' - Packaged Tableau workbook containing dashboards and story
+  - 'AI.md' - Explaination of how AI tools were used in this project in alignment with course guidelines on AI usage.
+  - 'Sales-Story.twb' - Packaged Tableau workbook containing dashboards and story
   - 'clean.py' - A python script created to clean out the dataset 'sales_data_sample.csv' as needed.
   - 'sales_data_sample.csv' - Original dataset used for this project, but requires data cleaning before use.
   - 'cleaned_sales_data.csv' - Current dataset in use for this project after the insertion of the file into the python script for data cleaning purposes.
